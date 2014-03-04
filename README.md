@@ -1,4 +1,4 @@
-node-prefix-drip-stream
+prefix-drip-stream
 =======================
 
 # How
