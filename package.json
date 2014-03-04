@@ -1,6 +1,6 @@
 {
   "name": "prefix-drip-stream",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {},
   "main": "./lib/prefix-drip-stream",
   "devDependencies": {
