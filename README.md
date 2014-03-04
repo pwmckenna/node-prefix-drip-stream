@@ -1,6 +1,3 @@
-prefix-drip-stream
-=======================
-
 # How
 Given a prefix, this read/write stream will pre-emptively write small increments ("drip") until actual content is written to the stream.
 
