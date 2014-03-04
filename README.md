@@ -1,4 +1,4 @@
-# How
+# What
 Given a prefix, this read/write stream will pre-emptively write small increments ("drip") until actual content is written to the stream.
 
 # Why
@@ -8,7 +8,7 @@ The primary use case is to get around things like Heroku's connection timeout (w
 ```js
 var request = require('request');
 var PrefixDripStream = require('prefix-drip-stream');
-var PNG_HEADER = new Buffer('89504e470d0a1a0a', 'hex');
+var PNG_HEADER = new Buffer('89504e470d0a1a0a', 'hex'); // png's "magic number"
 var IMAGE_URL = 'http://upload.wikimedia.org/wikipedia/en/1/13/S3_Graphics_Logo.png';
 // pre-emptivly write a bit of the png header every second until we get actual data
 var drip = new PrefixDripStream(PNG_HEADER, 1000);
