@@ -1,0 +1,15 @@
+{
+  "name": "prefix-drip-stream",
+  "version": "0.0.1",
+  "dependencies": {},
+  "main": "./lib/prefix-drip-stream",
+  "devDependencies": {
+    "matchdep": "~0.3.0",
+    "grunt": "~0.4.2",
+    "grunt-mocha-test": "~0.9.4",
+    "grunt-contrib-jshint": "~0.8.0",
+    "concat-stream": "~1.4.1",
+    "request": "~2.34.0",
+    "buffertools": "~2.0.1"
+  }
+}
